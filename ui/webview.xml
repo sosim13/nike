@@ -3,11 +3,11 @@
 <UI>
 <UILAYOUT portrait="480,800">
 <WINDOW layout="0,0,480,800" defaultImg="#ffffff" >
-<WEBVIEW id="webView" layout="0,0,480,700" loadSrc="http://nikemania.com" clientControl="false" />
-	<LINKMAP>
-		<!-- °øÅë -->
-		<LINK url="http://nikemania.com/*" jsPlugin="js/common.js" delay="500"/>
-	</LINKMAP>
+	<AGATEWEBVIEW id="webView" layout="0,30,320,390" src="http://nikemania.com" _src="main.htm" supportZoom="true" controls="none" defaultImg="#01ffffff" jsBridge="false">
+		<LINKMAP>
+			<LINK url="http://nikemania.com/*" jsPlugin="js/common.js" delay="500"/>
+		</LINKMAP>
+	</AGATEWEBVIEW>
 </WINDOW>
 </UILAYOUT>
 </UI>
