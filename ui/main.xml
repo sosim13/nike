@@ -86,33 +86,7 @@
                 <STYLEBUTTON layout="235,5,20,20" themeId="titleBarBtn" text="◁" onClick="function.back"/>
                 <STYLEBUTTON layout="265,5,50,20" themeId="titleBarBtn" text="이미지" onClick="function.gallery"/>
 			</WINDOW>
-			<WINDOW layout="0,30,320,1px" defaultImg="#30a0a0a0"/>
-
-			<WINDOW id="toolbar" layout="0,420,320,40">
-				<WINDOW layout="0,0,320,60" align="linear:hFill">
-					<STYLEBUTTON themeId="toolBtn" overlay2="color:#ffffff|shape=house" padding2="20,5,20,15" overlay3="color:#b0b0b0|shape=square" padding3="25,15,25,20" onClick="function.navigation('http://nikemania.com/main.html')">
-						<LABEL themeId="toolText" text="홈"/>
-					</STYLEBUTTON>
-					<STYLEBUTTON themeId="toolBtn" text="■■" onClick="function.gallery">
-						<LABEL themeId="toolText" text="갤러리"/>
-					</STYLEBUTTON>
-					<STYLEBUTTON themeId="toolBtn" text="▣" onClick="function.navigation('http://nikemania.com/basket.html')">
-						<LABEL themeId="toolText" text="장바구니"/>
-					</STYLEBUTTON>
-					<STYLEBUTTON themeId="toolBtn" text="★" onClick="function.navigation('http://nikemania.com/mypage.html')">
-						<LABEL themeId="toolText" text="마이페이지"/>
-					</STYLEBUTTON>
-					<STYLEBUTTON themeId="toolBtn" text="..." onClick="function.slide">
-						<LABEL themeId="toolText" text="기타 메뉴"/>
-					</STYLEBUTTON>
-				</WINDOW>
-
-				<!--
-					<WINDOW layout="290,0,30,40" onClick="function.toggleToolbar">
-					<STYLEBUTTON layout="0,0,20,40" shape="roundRect(2,4,4,2)" borderStyle="solid:1|#334477" defaultImg="#00000000" padding="0,0,0,0" fontSize="20" overlay1="gradation:tb|#d0bbbbff|#e77777aa|#ff333366" overlay2="color:#ffffff|shape=rightTriangle" padding2="5,15,5,15" onClick="function.toggleToolbar"/>
-					</WINDOW>
-				-->
-			</WINDOW>
+			<WINDOW layout="0,30,320,1px" defaultImg="#30a0a0a0"/>			
 
 			<!-- Sidemenu 접기 펼치기 왼쪽 하단 버튼 -->
 			<!--
