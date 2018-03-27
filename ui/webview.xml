@@ -14,7 +14,7 @@
 <UI>
 <UILAYOUT portrait="480,800">
 <WINDOW layout="0,0,480,800" defaultImg="#ffffff" >
-<WEBVIEW id="google_web" layout="0,0,480,700" loadSrc="http://www.nikemania.com" clientControl="true" />
+<WEBVIEW id="google_web" layout="0,0,480,700" loadSrc="http://nikemania.com" clientControl="true" />
 <WINDOW layout="0,700,480,100" align="linear:horizontal">
 <BUTTON layout="160,100" text="BACK" onClick="{function.webBack}"/>
 <BUTTON layout="160,100" text="FORWARD" onClick="{function.webForward}"/>
