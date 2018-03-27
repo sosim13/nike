@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MOML>
-<UI>
-<UILAYOUT portrait="480,800">
-<WINDOW layout="0,0,480,800" defaultImg="#ffffff" >
-	<AGATEWEBVIEW id="webView" layout="0,30,320,390" src="http://nikemania.com" _src="main.htm" supportZoom="true" controls="none" defaultImg="#01ffffff" jsBridge="false">
-		<LINKMAP>
-			<LINK url="http://nikemania.com/*" jsPlugin="js/common.js" delay="500"/>
-		</LINKMAP>
-	</AGATEWEBVIEW>
-</WINDOW>
-</UILAYOUT>
-</UI>
+    <THEMES id="theme1">
+        <THEME id="title" fontSize="50" textColor="#000000" fontShadow="#80808080"/>
+        <THEME id="loading" fontSize="12" textColor="#000000" fontShadow="#80808080"/>
+    </THEMES>
+
+    <UI>
+        <UILAYOUT portrait="320,460" landscape="320,460" theme="theme1">
+			<AGATEWEBVIEW id="webView" layout="0,30,320,390" src="http://nikemania.com" _src="main.htm" supportZoom="true" controls="none" defaultImg="#01ffffff" jsBridge="false">
+				<LINKMAP>
+					<LINK url="http://nikemania.com/*" jsPlugin="js/common.js" delay="500"/>
+				</LINKMAP>
+			</AGATEWEBVIEW>
+		</UILAYOUT>
+    </UI>
 </MOML>
