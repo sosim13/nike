@@ -38,8 +38,6 @@
 		</UILAYOUT>
 	</UI>
 	
-	<FUNCTIONCALL cmd="function.aniFlyingObj" delay="5000"/>
-	<FUNCTIONCALL cmd="function.aniSlideBg" delay="3000"/>
 	
 	<FUNCTIONLIST>
 		<!-- 첫 웹페이지에서 갤러리 데이터 만들기-->

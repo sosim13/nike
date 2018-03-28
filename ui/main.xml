@@ -168,9 +168,8 @@
 			<FUNCTIONITEM cmd="function.menuKeyPopup.init" delay="100"/>
 		</FUNCTION>
 
-		<FUNCTION id="gallery">
-			<FUNCTIONITEM cmd="galleryPopup.visible='visible'"/>
-			<FUNCTIONITEM condition="userVariable.galleryVisible!='true'" cmd="galleryPopup.src='gallery/galleryPopup.xml'"/>
+		<FUNCTION id="gallery">			
+			<FUNCTIONITEM cmd="url:./gallery/galleryPopup.xml" target="root.new" />
 		</FUNCTION>
 
 		<FUNCTION id="fillOrderInfo">
