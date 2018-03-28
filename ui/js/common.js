@@ -62,7 +62,7 @@ css("table.bbslist td#tsub", "table-:layout", "pixed");
 
 // 읽기 게시판
 css("table.bbslist", "width", "1000px");
-css("#t_right", "margin", "0 0 0 0");
+css("#t_right", "width", "1000px");
 css("table.bbslist", "width", "1000px");
 css("table.bbslist", "margin", "10px 0px 10px 0px");
 css("table.reply_box", "width", "1000px");
