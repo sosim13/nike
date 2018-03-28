@@ -67,7 +67,7 @@
 			<WINDOW id="id_leftMenuOverlay1" layout="0,-50,61,560" visible="invisible"/>
 			<WINDOW id="id_leftMenuOverlay2" layout="60,-50,61,560" visible="invisible"/>
 			<WINDOW id="id_rightArea" layout="0,0,320,460" defaultImg="#E5E5E5" onClick="'none'">
-				<CONTAINER id="webContainer" layout="0,0,320,460" src="webView.xml"/>
+				<CONTAINER id="webContainer" layout="0,0,320,510" src="webView.xml"/>
 
 				<!-- Sidemenu 접기 펼치기 gripper -->
 				<!--
