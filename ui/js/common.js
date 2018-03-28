@@ -27,9 +27,10 @@ function css(selector, property, value) {
     }
 }
 
-hideElement('header-container');
-hideElement('footer-container');
-hideElement('menu-container');
+hideElement('banner_left');
+hideElement('t_left');
+hideElement('mb_l');
+hideElement('head');
 
 
 css("body", "background-color", "rgba(255, 255, 255, 0.01)");
