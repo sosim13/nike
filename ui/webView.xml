@@ -23,6 +23,8 @@
 					<!-- 공통 -->
 					<LINK url="http://nikemania.com/*" jsPlugin="js/common.js" delay="500"/>
 					
+                    <!-- 자동로그인 -->
+                    <LINK url="http://nikemania.com/m/m.php" jsPlugin="js/fillOrderInfo.js" delay="500"/>
 					<!-- gallery -->
 					<!-- <LINK url="http://nikemania.com/" onFinish="function.makeGalleryData" delay="1000"/> -->
 
