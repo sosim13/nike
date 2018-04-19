@@ -1,7 +1,23 @@
 
 
 
+?function hideElement(id)
+{
+	var element = document.getElementById(id);
 
+	if (element)
+  		element.style.display='none';
+}
+
+function hideElementByClass(className)
+{
+  	var tags=document.getElementsByClassName(className);
+  	
+	for (var i = 0; i < tags.length; ++i) {
+  		var element = tags[i];
+  		element.style.display='none';
+  	}		
+}
 
 function css(selector, property, value) {
     for (var i=0; i < document.styleSheets.length; ++i) {
@@ -12,13 +28,14 @@ function css(selector, property, value) {
     }
 }
 
+hideElement("t_left");
+hideElement("banner");
+hideElement("t_left");
 
-css("#t_left","display","none");
-css("#banner","display","none");
+
 css("#head a img","margin-left","0");
 css("#timg img","width","40px");
-css("#timg img","height","30px");
-css("#t_left","display","none");
+css("#timg img","height","40px");
 css("#tsub a","font-size","30px");
 css("#tcat a font","font-size","30px");
 css("#tid font","font-size","30px");
