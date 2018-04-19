@@ -26,7 +26,7 @@
                     <!-- 자동로그인 -->
                     <LINK url="http://nikemania.com/m/m.php" jsPlugin="js/fillOrderInfo.js" delay="500"/>
 					<!-- 일반게시판 목록 -->
-                    <LINK url="http://nikemania.com/bbs/bbs_list.php?bbs=popbbs4" jsPlugin="js/popbbs4.js" delay="500"/>
+                    <LINK url="http://nikemania.com/bbs/bbs_list.php*" jsPlugin="js/popbbs4.js" delay="1000"/>
 					<!-- gallery -->
 					<!-- <LINK url="http://nikemania.com/" onFinish="function.makeGalleryData" delay="1000"/> -->
 
