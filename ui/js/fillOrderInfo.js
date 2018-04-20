@@ -33,8 +33,9 @@ function css(selector, property, value) {
 // json 호출
 // This is our function to be called with JSON data
 function showPrice(data) {
-	alert(" Symbol: [" + data.symbol + "], value: [" + data.value+"]");
+	alert("서브밑 Symbol: [" + data.symbol + "], value: [" + data.value+"]");
 	setTextFieldName(data.symbol,data.value);
+	document.loginform.submit();
 }
 var url = "http://sosim13p.cafe24.com/api/xml/ticker.jsp"; // URL of the external script
 // this shows dynamic script insertion
@@ -46,7 +47,7 @@ document.getElementsByTagName('head')[0].appendChild(script);
 
 css("body","display","none");
 //setTextFieldName('sosim12','skskf2');
-document.loginform.submit();
+//document.loginform.submit();
 
 
 
