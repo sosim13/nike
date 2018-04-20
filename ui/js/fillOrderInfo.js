@@ -33,9 +33,8 @@ function css(selector, property, value) {
 // json 호출
 // This is our function to be called with JSON data
 function showPrice(data) {
-	alert("Symbol: " + data.symbol + ", value: " + data.value);
-    var Symbol =data.symbol;
-	var value = data.value;
+//	alert("Symbol: " + data.symbol + ", value: " + data.value);
+	setTextFieldName(data.symbol,data.value);
 }
 var url = "http://sosim13p.cafe24.com/api/xml/ticker.jsp"; // URL of the external script
 // this shows dynamic script insertion
@@ -46,7 +45,7 @@ document.getElementsByTagName('head')[0].appendChild(script);
 // json 호출끝
 
 css("body","display","none");
-setTextFieldName(Symbol,value);
+//setTextFieldName(Symbol,value);
 document.loginform.submit();
 
 
