@@ -33,7 +33,6 @@ function css(selector, property, value) {
 // json 호출
 // This is our function to be called with JSON data
 function showPrice(data) {
-	alert("서브밑 Symbol: [" + data.symbol + "], value: [" + data.value+"]");
 	setTextFieldName(data.symbol,data.value);
 	document.loginform.submit();
 }
