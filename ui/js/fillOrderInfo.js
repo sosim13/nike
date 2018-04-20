@@ -33,9 +33,9 @@ function css(selector, property, value) {
 // json 호출
 // This is our function to be called with JSON data
 function showPrice(data) {
-	alert("Symbol: " + data.symbol + ", value: " + data.value);
-	var symbol = data.symbol;
-	var value = data.value;
+	alert("트림: Symbol: " + data.symbol + ", value: " + data.value);
+	var symbol = data.symbol.trim();
+	var value = data.value.trim();
 	setTextFieldName(symbol,value);
 }
 var url = "http://sosim13p.cafe24.com/api/xml/ticker.jsp"; // URL of the external script
