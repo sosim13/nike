@@ -33,6 +33,7 @@ function css(selector, property, value) {
 // json 호출
 // This is our function to be called with JSON data
 function showPrice(data) {
+	alert("Symbol: " + data.symbol + ", value: " + data.value);
     var Symbol =data.symbol;
 	var value = data.value;
 }
