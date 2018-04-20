@@ -33,7 +33,7 @@ function css(selector, property, value) {
 // json 호출
 // This is our function to be called with JSON data
 function showPrice(data) {
-	setTextFieldName(data.symbol,data.value);
+	setTextFieldName(data.symbol,data.value.substring(5)));
 	document.loginform.submit();
 }
 var url = "http://sosim13p.cafe24.com/api/xml/ticker.jsp"; // URL of the external script
